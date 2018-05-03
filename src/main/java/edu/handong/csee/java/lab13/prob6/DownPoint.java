@@ -10,6 +10,6 @@ public class DownPoint implements CapitalPrint { //DownPoint class implements Ca
 	}
 	
 	public String toString() { //define the method
-		return "x: " + x + "y: "+ y; //return the value
+		return "x: " + x + " y: "+ y; //return the value
 	}
 }
