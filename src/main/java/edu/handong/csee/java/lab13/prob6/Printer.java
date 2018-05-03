@@ -1,15 +1,16 @@
-package edu.handong.csee.java.lab13.prob6;
+package edu.handong.csee.java.lab13.prob6;  //package name
 
-public class Printer {
+public class Printer { //define Printer class
 		
-	static public void print(Object obj) {
-		if(obj instanceof DownPoint) {
-			DownPoint downPoint = (DownPoint)obj;
-			downPoint.toString();
+	static public void print(Object obj) { //define static print method
+		if(obj instanceof DownPoint) { //when the object is DownPoint
+			DownPoint downPoint = (DownPoint)obj; //instatiate
+			String str = downPoint.toString(); //call toString method
+			
 		}
-		else {
-			UpPoint upPoint = (UpPoint)obj;
-			upPoint.toString();
+		else { //when the object is UpPoint
+			UpPoint upPoint = (UpPoint)obj; //instantiate
+			String str =upPoint.toString(); //call toString method
 		}
 		
 			
