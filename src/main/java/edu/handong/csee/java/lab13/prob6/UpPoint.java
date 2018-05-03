@@ -10,7 +10,7 @@ public class UpPoint implements CapitalPrint{ //UpPoint class implements Capital
 	}
 	
 	public String toString() { //define toString method
-		return "X: " + x + "Y: "+ y;
+		return "X: " + x + "Y: "+ y; //return the value
 	}
 	
 
