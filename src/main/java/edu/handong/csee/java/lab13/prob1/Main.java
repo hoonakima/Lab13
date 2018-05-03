@@ -4,15 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Friend[] friend = new Friend[3];
+		Friend friend1 = new Friend("Jeong hoon Jo"); //Just Friend
+		Friend friend2 = new SchoolFriend("Jin su Jo"); //School Friend
+		Friend friend3 = new ClassFriend("Na kyung Lee"); //Class Friend
 
-		friend[0] = new Friend("Jeong hoon Jo"); //Just Friend
-		friend[1] = new SchoolFriend("Jin su Jo"); //School Friend
-		friend[2] = new ClassFriend("Na kyung Lee"); //Class Friend
-
-		InstanceOf.whatFriend(friend[0]);
-		InstanceOf.whatFriend(friend[1]);
-		InstanceOf.whatFriend(friend[2]);
+		//When each class has different method, then we need to cast it to call the right method for each object.
+		//That's why we use instanceOf.
+		InstanceOf.whatFriend(friend1);
+		InstanceOf.whatFriend(friend2);
+		InstanceOf.whatFriend(friend3);
 
 	}		
 }

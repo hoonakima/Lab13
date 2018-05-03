@@ -10,7 +10,7 @@ public class SchoolFriend extends Friend {
 		super(name);
 	}
 	
-	public void whatFriend() {
+	public void schoolFriend() {
 		System.out.println("School Friend!");
 	}
 }

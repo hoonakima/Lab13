@@ -4,18 +4,16 @@ public class InstanceOf {
 
 	static public void whatFriend(Friend friend) {
 
-		if(friend instanceof SchoolFriend) {
-			SchoolFriend mySchoolFriend = (SchoolFriend)friend;
-			mySchoolFriend.whatFriend();
+		if(friend instanceof ClassFriend) {
+			((ClassFriend)friend).classFriend();
 		}
 
-		else if (friend instanceof ClassFriend) {
-			ClassFriend myClassFriend = (ClassFriend)friend;
-			myClassFriend.whatFriend();
+		else if(friend instanceof SchoolFriend) {
+			((SchoolFriend)friend).schoolFriend();
 		}
 
 		else
-			friend.whatFriend();
+			friend.justFriend();
 
 	}
 

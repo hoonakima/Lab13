@@ -1,22 +1,22 @@
-package edu.handong.csee.java.lab13.prob1;
+package edu.handong.csee.java.lab13.prob1; //package name
 
-public class Friend {
+public class Friend { //Friend class (Base class)
 
-	private String name; 
+	private String name; //instance variable
 	
-	public Friend() {
+	public Friend() { //default constructor
 		
-		name = "";
+		name = ""; //set name value
 	}
 	
-	public Friend(String name) {
+	public Friend(String name) {  //Constructor
 		
-		this.name = name;
+		this.name = name; //set name as input parameter
 	}
 	
-	public void whatFriend() {
+	public void justFriend() { //define justFriend method
 		
-		System.out.println("Just Friend!");
+		System.out.println("Just Friend!"); //print the line
 	}
 	
 }
